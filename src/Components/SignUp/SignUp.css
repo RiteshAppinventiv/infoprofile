@@ -1,0 +1,48 @@
+.SignUp-main {
+    width: 35vw;
+    height: 639px;
+    top: 67px;
+    left: 836px;
+    border-radius: 12px;
+    background: white;
+    align-items: flex-start;
+}
+
+.SignUp-submain {
+    padding: 20px;
+}
+
+.SignUp-text {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.6899999976158142px;
+    text-align: left;
+}
+
+.input-div {
+    background-color: aqua;
+    display: flex;
+    height: 25px;
+    top: 304px;
+    left: 860px;
+    padding: 15px 0px 15px 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.text-div{
+    width: 100%;
+    margin:0 10px;
+}
+
+.text-div input{
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+
+}

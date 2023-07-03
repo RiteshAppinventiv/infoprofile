@@ -1,0 +1,12 @@
+.AuthTopRight {
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-start;
+    width: 44vw;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("./../../Assets/assets/web_app/landing_a2.svg");
+    background-position: top right;
+
+}

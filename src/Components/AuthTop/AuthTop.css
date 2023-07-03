@@ -1,0 +1,6 @@
+.AuthTop{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    /* width: 100%; */
+}

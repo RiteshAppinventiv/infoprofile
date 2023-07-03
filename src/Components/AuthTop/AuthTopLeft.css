@@ -1,0 +1,55 @@
+.AuthTopLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44vw;
+    position: relative;
+    background-image: url("./../../Assets/assets/web_app/landing_a1.svg");
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.AuthTopLeft-center {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
+}
+
+.AuthTopLeft-icon {
+    height: 60px;
+    padding: 10px 0;
+}
+
+.AuthTopLeft-center-1 {
+    align-self: flex-start;
+}
+
+.AuthTopLeft-center-3 { 
+    align-self: center;
+}
+
+.AuthTopLeft-center-p1 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.blue {
+    color: rgba(7, 99, 198, 1);
+}
+
+.AuthTopLeft-center-store-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AuthTopLeft-center-store {
+    width: 47%;
+    height: 60px;
+}

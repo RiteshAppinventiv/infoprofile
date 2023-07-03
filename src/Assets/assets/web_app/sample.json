@@ -1,0 +1,48 @@
+{
+    "results": [
+      {
+        "id": "5776188261018095498",
+        "name": "Radhika Modvani",
+        "handle": "@radhika32",
+        "profile_url" : "https://randomuser.me/api/portraits/women/25.jpg",
+        "post_url": "https://picsum.photos/400/200?random",
+        "post_description": "More effort is wasted doing things that don't matter than is wasted doing things inefficiently.",
+        "post_likes": "57",
+        "post_comments": "45",
+        "hascomment": true
+      },
+      {
+        "id": "5776188265338095498",
+        "name": "Nichols",
+        "handle": "@nicolas42",
+        "profile_url" : "https://randomuser.me/api/portraits/men/25.jpg",
+        "post_url": "https://picsum.photos/400/200?random",
+        "post_description": "Awesome bro... thats a nice place to do picnic",
+        "post_likes": "17",
+        "post_comments": "48",
+        "hascomment": false
+      },
+      {
+        "id": "5776461018095498",
+        "name": "Amit Bhawani",
+        "handle": "@amit2",
+        "profile_url" : "https://randomuser.me/api/portraits/men/55.jpg",
+        "post_url": "https://picsum.photos/400/200?random",
+        "post_description": "Create a beautiful blog that fits your style. Choose from a selection of easy-to-use templates – all with flexible layouts and hundreds of background images or design something new.Create a beautifulblog that fits your style. Choose from a selection of easy-to-use templates – all with flexible layouts and hundreds of background images or design something new.Create a beautiful blog. Create a beautiful blog. Create a beautiful blog that fits your style. Choose from a selection ofthat fits your style. Choose from a selection your style. Choose from a selection of that fits your style. Choose from a your style. Choose from a selection of that fits your style. Choose from a selection that fits your style. Choose from a selection ofthat fits your style. Choose from a selection your style. Choose from a selection of that fits your style. Choose from a your style. Choose from a selection of that fits your style. Choose from a selection that fits your style. Choose from a selection ofthat fits your style. Choose from a selection your style. Choose from a selection of that fits your style. Choose from .",
+        "post_likes": "137",
+        "post_comments": "8",
+        "hascomment": true
+      },
+      {
+        "id": "55897656188261018095498",
+        "name": "Shraddha Sharma",
+        "handle": "@sharaddha3",
+        "profile_url" : "https://randomuser.me/api/portraits/women/75.jpg",
+        "post_url": "https://picsum.photos/400/200?random",
+        "post_description": "Some time here and there. More effort is wasted doing things that don't matter than is wasted doing things inefficiently.",
+        "post_likes": "97",
+        "post_comments": "5",
+        "hascomment": false
+      }
+    ]
+  }
