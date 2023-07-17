@@ -1,0 +1,39 @@
+.cancle_icon-div {
+    background-color: aqua;
+}
+
+.cancle_white_icon {
+    cursor: pointer;
+    background-color: bisque;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    right: calc(50% - 12px);
+    border-radius: 50%;
+    border: 2px solid transparent;
+    z-index: 1301 !important;
+}
+
+.selection_main {
+    margin: auto;
+    padding-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.selection_p {
+    font-family: Poppins;
+    /* font-size: 12px; */
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.6899999976158142px;
+    text-align: center;
+}
+
+.disabled-div { 
+    pointer-events: none;
+    opacity: 0.5;
+  }

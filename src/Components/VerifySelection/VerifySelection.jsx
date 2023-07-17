@@ -2,18 +2,14 @@ import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
 import CloseIcon from '@mui/icons-material/Close';
-
+import Cancel from "./../../Assets/assets/icons/Cancel.svg"
+import email_ver from "./../../Assets/assets/web_app/email_ver.svg"
+import "./VerifySelection.css"
 
 export function VerifySelection({ open, setOpen }) {
-    // const [open, setOpen] = seState(false);
+    const [isDisabled, setIsDisabled] = useState(true);
 
-    // const handleClickOpen = () => {
-    //   setOpen(true);
-    // };
 
     const handleClose = () => {
         setOpen(false);
@@ -21,9 +17,6 @@ export function VerifySelection({ open, setOpen }) {
 
     return (
         <div>
-            {/* <Button variant="contained" color="primary" onClick={handleClickOpen}>
-          Open Pop-up
-        </Button> */}
             <Dialog
                 open={open}
                 onClose={handleClose}
@@ -31,29 +24,52 @@ export function VerifySelection({ open, setOpen }) {
                 fullWidth
                 maxWidth={false}
                 PaperProps={{
-                  style: {
-                    width: '400px', // Set custom width in pixels
-                    height: '300px', // Set custom height in pixels
-                    position: 'relative', // Required for absolute positioning of the icon
-                  },
+                    style: {
+                        width: '700px',
+                        height: '500px',
+                        position: 'relative',
+                        overflow: 'visible',
+                        borderRadius: "20px"
+                    },
                 }}
             >
-                 <CloseIcon
+                <div
+                    className="cancel_icon-div"
                     style={{
                         position: 'absolute',
-                        top: '-20px', // Move the icon above the dialog box
-                        right: 'calc(50% - 12px)', // Center the icon horizontally
-                        cursor: 'pointer', // Add cursor pointer for interaction
-                        fontSize:"30px",
-                      }}
-                      onClick={handleClose}
-                />
-                <DialogActions>
-                    <Button onClick={handleClose} color="primary">
-                        Close
-                    </Button>
-                    {/* You can add more action buttons here if needed */}
-                </DialogActions>
+                        top: "-20px",
+                        right: "calc(50% - 25px)",
+                        cursor: 'pointer',
+                    }}
+                    onClick={handleClose}
+                >
+                    <img
+                        className="cancel_white_icon"
+                        src={Cancel}
+                        alt=""
+                        style={{
+                            background: "white",
+                            height: '40px',
+                            borderRadius: '50%',
+                            border: '5px solid rgba(0, 0, 0, 0.55)',
+                            zIndex: '1301',
+                        }}
+                    />
+                </div>
+                <div className='selection_main'>
+                    <div>
+                        <img src={email_ver} alt="" />
+                    </div>
+                    <div>
+                        <p className='selection_p'>Verify your Email or Mobile Number in order to successfully register yourself.</p>
+                        <div className={isDisabled ? 'disabled-div' : ''}>
+                            <div className="input-div signup-text-2" >
+                                Verify Mail
+                            </div>
+                        </div>
+                        <p className='blue login-ul'>Verify Mobile Number</p>
+                    </div>
+                </div>
             </Dialog>
         </div>
     );

@@ -3,7 +3,7 @@ import email_ver from "./../../Assets/assets/icons/Email.svg"
 import Phone_number from "./../../Assets/assets/icons/Phone_number.svg"
 import Password from "./../../Assets/assets/icons/Password.svg"
 import Show_pass from "./../../Assets/assets/icons/Show_pass.svg"
-import React, { useState } from 'react';
+import React from 'react';
 
 
 
@@ -28,7 +28,7 @@ const SignUp = ({ setOpen }) => {
             </div>
           </div>
           <div className="input-div">
-            <img className="blue" src={Phone_number} alt="" />
+            <img src={Phone_number} alt="" />
             <div className="text-div">
               <input type="text" placeholder="* Phone Number" />
             </div>
