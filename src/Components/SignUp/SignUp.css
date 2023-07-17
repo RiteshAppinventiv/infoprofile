@@ -1,5 +1,5 @@
 .SignUp-main {
-    width: 35vw;
+    width: 33vw;
     height: 639px;
     top: 67px;
     left: 836px;
@@ -22,7 +22,7 @@
 }
 
 .input-div {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     height: 25px;
     top: 304px;
@@ -30,19 +30,64 @@
     padding: 15px 0px 15px 16px;
     border-radius: 10px;
     border: 1px solid black;
+    margin: 15px 0px;
 }
 
-.text-div{
+.text-div {
     width: 100%;
-    margin:0 10px;
+    margin: 0 10px;
 }
 
-.text-div input{
+.text-div input {
     height: 100%;
     width: 100%;
     font-size: large;
     border: none;
     outline: none;
     letter-spacing: 1px;
+}
 
+.Show_pass {
+    margin-right: 5px;
+}
+
+.tnc {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.SignUp-main-4 {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.signup-text-2 {
+    background-color: rgba(7, 99, 198, 1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.6899999976158142px;
+}
+
+.login-div {
+    text-align: center;
+}
+
+.login-ul {
+    color: rgba(7, 99, 198, 1);
+    text-decoration: underline;
 }
